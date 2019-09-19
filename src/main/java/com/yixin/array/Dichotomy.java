@@ -1,5 +1,4 @@
 package com.yixin.array;
-
 /**
  * @Package: com.yixin.array
  * @ClassName: demo1
@@ -7,7 +6,7 @@ package com.yixin.array;
  * @Author: 式神
  * @CreateDate: 2019/9/18 9:52
  */
-public class dichotomy {
+public class Dichotomy {
     public static void main(String[] args) {
         int[] arr3 = new int[]{-99,-54,-2,0,2,33,43,256,999};
         boolean isFlag = true;
