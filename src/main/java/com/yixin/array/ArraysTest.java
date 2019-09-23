@@ -18,8 +18,12 @@ public class ArraysTest {
         System.out.println(isEquals);
         //Arrays二分法查找
         int [] arr2=new int[]{1,2,3,5};
-        int dex=Arrays.binarySearch(arr,3);
-        System.out.println(dex);
+        int dex=Arrays.binarySearch(arr,52);
+        if (dex>=0){
+            System.out.println(dex);
+        }else {
+            System.out.println("未找到");
+        }
         //Arrays toString
         int [] arr3=new int []{11,232,123,53};
         System.out.println(Arrays.toString(arr3));
