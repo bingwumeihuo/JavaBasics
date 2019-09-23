@@ -1,5 +1,4 @@
 package com.yixin.array;
-
 /**
  * @Package: com.yixin.array
  * @ClassName: BubbleSort
