@@ -8,7 +8,7 @@ package com.yixin.array;
  */
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] arr = new int[]{999, -524, 2, 0, 223, 33, 4343, 2256, 999};
+        int[] arr = new int[]{2, -1, 123, 1, 223, 33, 4343, 2256, 999};
         for (int i = 0; i < arr.length-1; i++) {
             for (int j=0;j< arr.length-1-i;j++){
                 if (arr[j]>arr[j+1]){
