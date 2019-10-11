@@ -1,5 +1,4 @@
 package com.yixin.array;
-
 /**
  * @Package: com.yixin.array
  * @ClassName: ArraysException 常见异常

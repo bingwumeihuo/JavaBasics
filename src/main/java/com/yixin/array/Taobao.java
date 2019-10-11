@@ -10,8 +10,6 @@ package com.yixin.array;
 public class Taobao {
     public static void main(String[] args) {
 
-
-
         System.out.println("");
     }
 }
