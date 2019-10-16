@@ -10,7 +10,7 @@ package com.yixin.method;
 public class Account {
     private int id;
     private double balance;
-    private double Annualinterestrate;
+    private double annualinterestrate;
 
     public int getId() {
         return id;
@@ -29,17 +29,17 @@ public class Account {
     }
 
     public double getAnnualinterestrate() {
-        return Annualinterestrate;
+        return annualinterestrate;
     }
 
     public void setAnnualinterestrate(double annualinterestrate) {
-        Annualinterestrate = annualinterestrate;
+        annualinterestrate = annualinterestrate;
     }
 
     public Account(int id, double balance, double annualinterestrate) {
         this.id = id;
         this.balance = balance;
-        Annualinterestrate = annualinterestrate;
+        annualinterestrate = annualinterestrate;
     }
     public void withdraw(double amount){
         if (balance<amount){

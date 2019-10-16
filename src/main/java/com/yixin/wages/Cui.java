@@ -12,11 +12,12 @@ public class Cui {
         Wages wages = new Wages(19, 0, 8);
         System.out.println("您的到手工资为:  " + wages.money() + "元");
     }
+
     static class Wages {
-        private static final int wages = 7000;
-        private static final double social = 517.5;
-        private static final double tax = 60;
-        private static final int fund = 329;
+        private static final int WAGES = 7000;
+        private static final double SOCIAL = 517.5;
+        private static final double TAX = 60;
+        private static final int FUND = 329;
         private int wokingDay;
         private int leave;
         private int hours;
@@ -27,12 +28,13 @@ public class Cui {
             this.leave = leave;
             this.hours = hours;
         }
+
         public double money() {
-            double dayMoney = wages / wokingDay;
-            double hoursMoney=dayMoney/8*1.5;
-            int Day = wokingDay - leave;
-            double other = social + fund + tax;
-            money = dayMoney * Day  + (hoursMoney * hours)- other;
+            double dayMoney = WAGES / wokingDay;
+            double hoursMoney = dayMoney / 8 * 1.5;
+            int day = wokingDay - leave;
+            double other = SOCIAL + FUND + TAX;
+            money = dayMoney * day + (hoursMoney * hours) - other;
             return money;
         }
     }

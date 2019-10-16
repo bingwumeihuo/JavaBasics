@@ -6,7 +6,7 @@ package com.yixin.method;
  * @Author: 式神
  * @CreateDate: 2019/10/15 15:34
  */
-public class AccountTest {
+public class AccountTest   {
     public static void main(String[] args) {
         Account account=new Account(1,80,0.4);
         account.deposit(100);
