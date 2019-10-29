@@ -7,10 +7,12 @@ package com.yixin.wages;
  * @Author: 式神
  * @CreateDate: 2019/10/16 13:44
  */
+
 public class Cui {
     public static void main(String[] args) {
-        Wages wages = new Wages(19, 0, 8);
+        Wages wages = new Wages(19, 0, 13);
         System.out.println("您的到手工资为:  " + wages.money() + "元");
+        System.out.println("其中加班时间为:  " + wages.getHours() + "小时   加班工资为: " + wages.getOverTime());
     }
 
     static class Wages {
@@ -18,24 +20,32 @@ public class Cui {
         private static final double SOCIAL = 517.5;
         private static final double TAX = 60;
         private static final int FUND = 329;
-        private int wokingDay;
+        private int wakingDay;
         private int leave;
-        private int hours;
-        private double money;
+        public int hours;
+        private double overTime;
 
-        public Wages(int wokingDay, int leave, int hours) {
-            this.wokingDay = wokingDay;
+        Wages(int wakingDay, int leave, int hours) {
+            this.wakingDay = wakingDay;
             this.leave = leave;
             this.hours = hours;
         }
 
-        public double money() {
-            double dayMoney = WAGES / wokingDay;
+        int getHours() {
+            return hours;
+        }
+
+        double getOverTime() {
+            return overTime;
+        }
+
+        double money() {
+            double dayMoney = WAGES / wakingDay;
             double hoursMoney = dayMoney / 8 * 1.5;
-            int day = wokingDay - leave;
+            overTime = hoursMoney * hours;
+            int day = wakingDay - leave;
             double other = SOCIAL + FUND + TAX;
-            money = dayMoney * day + (hoursMoney * hours) - other;
-            return money;
+            return dayMoney * day + overTime - other;
         }
     }
 
