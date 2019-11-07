@@ -31,7 +31,6 @@ private  ReentrantLock reentrantLock=new ReentrantLock(true);
                 reentrantLock.unlock();
             }
         }
-
     }
 }
 public class LockTest {
