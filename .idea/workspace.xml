@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e65671ea-7fd5-4c62-ab08-4e1b0c3986d5" name="Default Changelist" comment="String和StringBuffer StringBuilder的 速度对比">
+      <change afterPath="$PROJECT_DIR$/.idea/JavaBasics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/yixin/extend/Son.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/yixin/extend/person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/yixin/overwrite/Man.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/yixin/overwrite/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/yixin/overwrite/PersonTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/yixin/overwrite/Women.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yixin/IOStream/IOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yixin/collection/CollectionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yixin/collection/PropertiesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yixin/collection/exec/GentorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yixin/generic/GenericTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/array/AnnotationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/array/ArraysException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/array/ArraysTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/array/BubbleSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/array/Dichotomy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/array/StaticTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/array/Taobao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/array/interfaceTest1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/array/java8Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/collection/ListTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/collection/MapTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/collection/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/collection/PropertiesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/collection/SetListTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/collection/exec/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/collection/exec/EmployeeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/collection/exec/MyDate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/compare/CompareTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/date/DateTimeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/date/LocalTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/date/StringBufferTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/encapsulation/Animals.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/encapsulation/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/errorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/eum/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/extend/Son.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/extend/person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/method/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/method/AccountTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/method/ArraysTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/method/RecursionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/method/methodArgs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/method/overLoad.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/overwrite/Man.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/overwrite/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/overwrite/PersonTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/overwrite/Women.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/Circlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/People$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/People.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/Tea.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/Test2$Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/Test2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/Test3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/Test4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/UserTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/runnable/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/runnable/ThreadTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/runnable/java1/Clerk.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/runnable/java1/Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/runnable/java1/Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/runnable/java1/ProductTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/silmpledateformat/SimpleDateFormatTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/string/StringMethodTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/string/StringTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/stringtest/StringTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/Account/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/Account/AccountTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/Account/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/Math.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/Thread1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/Thread2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/ThreadTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/ThreadTest1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/ThreadTest1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/ThreadTest2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/Windows.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/WindowsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/java1/Bank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/java1/BankTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/java1/LockTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/java1/Windows.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/waitTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/wages/Cui$Wages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/wages/Cui.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/wages/Test2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/wages/Threads4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yixin/collection/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yixin/collection/MapTest.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Rx1tXnEkOFwzSfSeXKhGUD5ofP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Java/JavaBasics/src/main/java/com/yixin/thread/ThreadTest.java&#10;key&#9;ACTION&#9;ActivateKeyPromoterXToolWindow" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572881525381" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15277778" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\JavaBasics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\JavaBasics" />
+      <recent name="E:\JavaBasics\src\main\java\com\yixin\project2" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.IOTest.testByteFile">
+    <configuration name="ArraysException" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yixin.array.ArraysException" />
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yixin.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arraysTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yixin.method.arraysTest" />
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yixin.method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo1" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yixin.array.demo1" />
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yixin.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="JavaBasics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yixin.IOStream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yixin.IOStream" />
+      <option name="MAIN_CLASS_NAME" value="com.yixin.IOStream.IOTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yixin.IOStream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yixin.IOStream" />
+      <option name="MAIN_CLASS_NAME" value="com.yixin.IOStream.IOTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOTest.testByteFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yixin.IOStream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yixin.IOStream" />
+      <option name="MAIN_CLASS_NAME" value="com.yixin.IOStream.IOTest" />
+      <option name="METHOD_NAME" value="testByteFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOTest.testFileReaderFileWriter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yixin.IOStream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yixin.IOStream" />
+      <option name="MAIN_CLASS_NAME" value="com.yixin.IOStream.IOTest" />
+      <option name="METHOD_NAME" value="testFileReaderFileWriter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOTest.testOutWriter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yixin.IOStream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yixin.IOStream" />
+      <option name="MAIN_CLASS_NAME" value="com.yixin.IOStream.IOTest" />
+      <option name="METHOD_NAME" value="testOutWriter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.arraysTest" />
+      <item itemvalue="Application.demo1" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.ArraysException" />
+      <item itemvalue="JUnit.IOTest.test1" />
+      <item itemvalue="JUnit.IOTest.testOutWriter" />
+      <item itemvalue="JUnit.IOTest.testFileReaderFileWriter" />
+      <item itemvalue="JUnit.IOTest" />
+      <item itemvalue="JUnit.IOTest.testByteFile" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IOTest.testByteFile" />
+        <item itemvalue="JUnit.IOTest.testFileReaderFileWriter" />
+        <item itemvalue="JUnit.IOTest" />
+        <item itemvalue="JUnit.IOTest.testOutWriter" />
+        <item itemvalue="JUnit.IOTest.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SQLPlugin.ProjectConfiguration">
+    <queries />
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INTERFACES,ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e65671ea-7fd5-4c62-ab08-4e1b0c3986d5" name="Default Changelist" comment="" />
+      <created>1568771485469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568771485469</updated>
+      <workItem from="1568771488928" duration="3581000" />
+      <workItem from="1568856410303" duration="8852000" />
+      <workItem from="1568948670480" duration="2619000" />
+      <workItem from="1569202339897" duration="1325000" />
+      <workItem from="1569203720149" duration="274000" />
+      <workItem from="1569204043663" duration="50000" />
+      <workItem from="1569204139642" duration="203000" />
+      <workItem from="1569204389523" duration="1364000" />
+      <workItem from="1569206250285" duration="9512000" />
+      <workItem from="1569313880015" duration="598000" />
+      <workItem from="1569392007634" duration="3265000" />
+      <workItem from="1570498329554" duration="2612000" />
+      <workItem from="1570583688478" duration="1713000" />
+      <workItem from="1570585516435" duration="3464000" />
+      <workItem from="1570594161354" duration="411000" />
+      <workItem from="1570594639004" duration="541000" />
+      <workItem from="1570595351596" duration="344000" />
+      <workItem from="1570595798268" duration="308000" />
+      <workItem from="1570596144722" duration="21000" />
+      <workItem from="1570596247819" duration="9000" />
+      <workItem from="1570596300737" duration="5034000" />
+      <workItem from="1570671516487" duration="15000" />
+      <workItem from="1570671571109" duration="1301000" />
+      <workItem from="1570688921962" duration="6648000" />
+      <workItem from="1570702923412" duration="207000" />
+      <workItem from="1570703164175" duration="40000" />
+      <workItem from="1570758914147" duration="2130000" />
+      <workItem from="1570763041489" duration="77000" />
+      <workItem from="1570763171362" duration="349000" />
+      <workItem from="1570763557581" duration="9856000" />
+      <workItem from="1570845966669" duration="11307000" />
+      <workItem from="1571017422287" duration="7127000" />
+      <workItem from="1571103261160" duration="12082000" />
+      <workItem from="1571188806562" duration="14634000" />
+      <workItem from="1571275528218" duration="5016000" />
+      <workItem from="1571367563846" duration="7384000" />
+      <workItem from="1571621395033" duration="7348000" />
+      <workItem from="1571662108248" duration="10832000" />
+      <workItem from="1571748624200" duration="14042000" />
+      <workItem from="1571836886883" duration="2107000" />
+      <workItem from="1571841206759" duration="6877000" />
+      <workItem from="1571930223069" duration="3495000" />
+      <workItem from="1572181549245" duration="597000" />
+      <workItem from="1572261591387" duration="5906000" />
+      <workItem from="1572315006295" duration="8126000" />
+      <workItem from="1572354811824" duration="10755000" />
+      <workItem from="1572415280390" duration="6033000" />
+      <workItem from="1572440451390" duration="7583000" />
+      <workItem from="1572486129788" duration="717000" />
+      <workItem from="1572877022395" duration="3175000" />
+      <workItem from="1572881732067" duration="3000" />
+      <workItem from="1572882004040" duration="90000" />
+      <workItem from="1572917145142" duration="7023000" />
+      <workItem from="1572929865167" duration="86000" />
+      <workItem from="1572929992287" duration="11937000" />
+      <workItem from="1572966323484" duration="94000" />
+      <workItem from="1572967379488" duration="188000" />
+      <workItem from="1572967595059" duration="1312000" />
+      <workItem from="1572969158965" duration="1239000" />
+      <workItem from="1573003308131" duration="9965000" />
+      <workItem from="1573048129488" duration="6549000" />
+      <workItem from="1573058360419" duration="271000" />
+      <workItem from="1573089947593" duration="11811000" />
+      <workItem from="1573132124641" duration="5835000" />
+      <workItem from="1573191952296" duration="10601000" />
+      <workItem from="1573393277167" duration="3273000" />
+      <workItem from="1573450996856" duration="3184000" />
+      <workItem from="1573472345461" duration="8001000" />
+      <workItem from="1573537526684" duration="2038000" />
+      <workItem from="1573625210791" duration="3424000" />
+      <workItem from="1573628683906" duration="250000" />
+      <workItem from="1573628976808" duration="67000" />
+      <workItem from="1573629083906" duration="5058000" />
+      <workItem from="1573712182734" duration="4628000" />
+      <workItem from="1573733116593" duration="8733000" />
+    </task>
+    <task id="LOCAL-00001" summary="增加耗时统计">
+      <created>1568878011900</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568878011900</updated>
+    </task>
+    <task id="LOCAL-00002" summary="冒泡排序">
+      <created>1568881542010</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568881542010</updated>
+    </task>
+    <task id="LOCAL-00003" summary="算法重组">
+      <created>1569217175403</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569217175403</updated>
+    </task>
+    <task id="LOCAL-00004" summary="算法重组">
+      <created>1569219441971</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569219441971</updated>
+    </task>
+    <task id="LOCAL-00005" summary="算法重组">
+      <created>1569220723740</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569220723740</updated>
+    </task>
+    <task id="LOCAL-00006" summary="算法重组">
+      <created>1569233232525</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1569233232525</updated>
+    </task>
+    <task id="LOCAL-00007" summary="算法重组">
+      <created>1570595862727</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570595862727</updated>
+    </task>
+    <task id="LOCAL-00008" summary="面向对象">
+      <created>1570792598096</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1570792598096</updated>
+    </task>
+    <task id="LOCAL-00009" summary="封装">
+      <created>1571132699556</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571132699556</updated>
+    </task>
+    <task id="LOCAL-00010" summary="封装">
+      <created>1571132711389</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1571132711389</updated>
+    </task>
+    <task id="LOCAL-00011" summary="工资计算">
+      <created>1571208332800</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1571208332800</updated>
+    </task>
+    <task id="LOCAL-00012" summary="工资计算">
+      <created>1571211165596</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1571211165596</updated>
+    </task>
+    <task id="LOCAL-00013" summary="工资计算">
+      <created>1571218893299</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1571218893299</updated>
+    </task>
+    <task id="LOCAL-00014" summary="多线程问题">
+      <created>1572368132219</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1572368132219</updated>
+    </task>
+    <task id="LOCAL-00015" summary="String和StringBuffer StringBuilder的 速度对比">
+      <created>1573092328647</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1573092328647</updated>
+    </task>
+    <task id="LOCAL-00016" summary="String和StringBuffer StringBuilder的 速度对比">
+      <created>1573550667071</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1573550667071</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="增加耗时统计" />
+    <MESSAGE value="冒泡排序" />
+    <MESSAGE value="算法重组" />
+    <MESSAGE value="面向对象" />
+    <MESSAGE value="封装" />
+    <MESSAGE value="工资计算" />
+    <MESSAGE value="多线程问题" />
+    <MESSAGE value="String和StringBuffer StringBuilder的 速度对比" />
+    <option name="LAST_COMMIT_MESSAGE" value="String和StringBuffer StringBuilder的 速度对比" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaBasics$Threads4.ic" NAME="Threads4 Coverage Results" MODIFIED="1572933016116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.yixin.wages.*</FILTER>
+    </SUITE>
+  </component>
+</project>
