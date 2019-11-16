@@ -4,114 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e65671ea-7fd5-4c62-ab08-4e1b0c3986d5" name="Default Changelist" comment="String和StringBuffer StringBuilder的 速度对比">
-      <change afterPath="$PROJECT_DIR$/.idea/JavaBasics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/yixin/extend/Son.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/yixin/extend/person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/yixin/overwrite/Man.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/yixin/overwrite/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/yixin/overwrite/PersonTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaBasics/com/yixin/overwrite/Women.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yixin/IOStream/IOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yixin/collection/CollectionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yixin/collection/PropertiesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yixin/collection/exec/GentorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yixin/generic/GenericTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/array/AnnotationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/array/ArraysException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/array/ArraysTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/array/BubbleSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/array/Dichotomy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/array/StaticTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/array/Taobao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/array/interfaceTest1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/array/java8Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/collection/ListTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/collection/MapTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/collection/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/collection/PropertiesTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/collection/SetListTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/collection/exec/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/collection/exec/EmployeeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/collection/exec/MyDate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/compare/CompareTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/date/DateTimeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/date/LocalTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/date/StringBufferTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/encapsulation/Animals.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/encapsulation/Test1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/errorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/eum/Test1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/extend/Son.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/extend/person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/method/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/method/AccountTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/method/ArraysTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/method/RecursionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/method/methodArgs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/method/overLoad.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/overwrite/Man.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/overwrite/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/overwrite/PersonTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/overwrite/Women.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/Circlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/People$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/People.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/Tea.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/Test1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/Test2$Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/Test2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/Test3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/Test4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/UserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/person/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/runnable/Test1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/runnable/ThreadTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/runnable/java1/Clerk.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/runnable/java1/Consumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/runnable/java1/Producer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/runnable/java1/ProductTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/silmpledateformat/SimpleDateFormatTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/string/StringMethodTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/string/StringTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/stringtest/StringTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/Account/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/Account/AccountTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/Account/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/Math.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/Thread1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/Thread2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/ThreadTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/ThreadTest1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/ThreadTest1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/ThreadTest2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/Windows.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/WindowsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/java1/Bank.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/java1/BankTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/java1/LockTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/java1/Windows.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/thread/waitTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/wages/Cui$Wages.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/wages/Cui.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/wages/Test2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yixin/wages/Threads4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yixin/collection/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yixin/collection/MapTest.java" afterDir="false" />
+    <list default="true" id="e65671ea-7fd5-4c62-ab08-4e1b0c3986d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yixin/IOStream/BufferTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yixin/IOStream/IOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yixin/IOStream/IOTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -208,7 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IOTest.testByteFile">
+  <component name="RunManager" selected="JUnit.BufferTest.test">
     <configuration name="ArraysException" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yixin.array.ArraysException" />
       <module name="JavaBasics" />
@@ -255,6 +151,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BufferTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yixin.IOStream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yixin.IOStream" />
+      <option name="MAIN_CLASS_NAME" value="com.yixin.IOStream.BufferTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasics" />
       <extension name="coverage">
@@ -266,22 +178,6 @@
       <option name="PACKAGE_NAME" value="com.yixin.IOStream" />
       <option name="MAIN_CLASS_NAME" value="com.yixin.IOStream.IOTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IOTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yixin.IOStream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yixin.IOStream" />
-      <option name="MAIN_CLASS_NAME" value="com.yixin.IOStream.IOTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -339,19 +235,19 @@
       <item itemvalue="Application.demo1" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.ArraysException" />
-      <item itemvalue="JUnit.IOTest.test1" />
       <item itemvalue="JUnit.IOTest.testOutWriter" />
       <item itemvalue="JUnit.IOTest.testFileReaderFileWriter" />
       <item itemvalue="JUnit.IOTest" />
       <item itemvalue="JUnit.IOTest.testByteFile" />
+      <item itemvalue="JUnit.BufferTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BufferTest.test" />
         <item itemvalue="JUnit.IOTest.testByteFile" />
         <item itemvalue="JUnit.IOTest.testFileReaderFileWriter" />
         <item itemvalue="JUnit.IOTest" />
         <item itemvalue="JUnit.IOTest.testOutWriter" />
-        <item itemvalue="JUnit.IOTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -448,7 +344,7 @@
       <workItem from="1573628976808" duration="67000" />
       <workItem from="1573629083906" duration="5058000" />
       <workItem from="1573712182734" duration="4628000" />
-      <workItem from="1573733116593" duration="8733000" />
+      <workItem from="1573733116593" duration="13737000" />
     </task>
     <task id="LOCAL-00001" summary="增加耗时统计">
       <created>1568878011900</created>
@@ -562,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573550667071</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="IO流">
+      <created>1573838567281</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1573838567281</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +494,8 @@
     <MESSAGE value="工资计算" />
     <MESSAGE value="多线程问题" />
     <MESSAGE value="String和StringBuffer StringBuilder的 速度对比" />
-    <option name="LAST_COMMIT_MESSAGE" value="String和StringBuffer StringBuilder的 速度对比" />
+    <MESSAGE value="IO流" />
+    <option name="LAST_COMMIT_MESSAGE" value="IO流" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaBasics$Threads4.ic" NAME="Threads4 Coverage Results" MODIFIED="1572933016116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

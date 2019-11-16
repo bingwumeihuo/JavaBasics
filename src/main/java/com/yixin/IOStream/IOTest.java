@@ -132,20 +132,45 @@ public class IOTest {
 
         }
         @Test
-    public void testByteFile() throws IOException {
-        //实例化file对象
-            File f1 = new File("a.jpg");
-            File f2 = new File("b.jpg");
-            //提供写出，读入对象
-            FileInputStream fs = new FileInputStream(f1);
-            FileOutputStream fo = new FileOutputStream(f2);
-            int len;
-            byte[] bytes = new byte[8];
-            while ((len=fs.read(bytes))!=-1){
-                fo.write(bytes,0,len);
+    public void testByteFile()  {
+            long start = System.currentTimeMillis();
+            String s1="E:\\尚硅谷Java核心基础_2019年版\\day03_Java基本语法\\01-尚硅谷-Java语言基础-每天一考.avi";
+            String s2="E:\\尚硅谷Java核心基础_2019年版\\day03_Java基本语法\\1.avi";
+            copyFile(s1,s2);
+            long end = System.currentTimeMillis();
+            float s=(end-start)/1000f;
+            System.out.println("复制完成所花费时间为"+s);
             }
-            fs.close();
-            fo.close();
+        public void copyFile(String st1,String st2){
+            FileInputStream fs = null;
+            FileOutputStream fo = null;
+            try {
+                File f1 = new File(st1);
+                File f2 = new File(st2);
+                //提供写出，读入对象
+                fs = new FileInputStream(f1);
+                fo = new FileOutputStream(f2);
+                int len;
+                byte[] bytes = new byte[1024];
+                while ((len=fs.read(bytes))!=-1){
+                    fo.write(bytes,0,len);
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }finally {
+                try {
+                    assert fs != null;
+                    fs.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                try {
+                    assert fo != null;
+                    fo.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
 
 
