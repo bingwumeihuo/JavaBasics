@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e65671ea-7fd5-4c62-ab08-4e1b0c3986d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yixin/IOStream/BufferTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yixin/IOStream/OtherStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yixin/reflection/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yixin/reflection/ReflectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/TCPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/TCPTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/TCPTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/UDPTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/WebSocket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yixin/IOStream/IOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yixin/IOStream/IOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yixin/IOStream/IOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yixin/IOStream/IOTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +41,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaBasics" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,12 +94,12 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Java\JavaBasics" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Java\JavaBasics" />
       <recent name="E:\JavaBasics\src\main\java\com\yixin\project2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\JavaBasics" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -104,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BufferTest.test">
+  <component name="RunManager" selected="JUnit.ReflectionTest.Test2">
     <configuration name="ArraysException" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yixin.array.ArraysException" />
       <module name="JavaBasics" />
@@ -151,80 +161,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BufferTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReflectionTest.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yixin.IOStream.*" />
+          <option name="PATTERN" value="com.yixin.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yixin.IOStream" />
-      <option name="MAIN_CLASS_NAME" value="com.yixin.IOStream.BufferTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.yixin.reflection" />
+      <option name="MAIN_CLASS_NAME" value="com.yixin.reflection.ReflectionTest" />
+      <option name="METHOD_NAME" value="Test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReflectionTest.Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yixin.IOStream.*" />
+          <option name="PATTERN" value="com.yixin.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yixin.IOStream" />
-      <option name="MAIN_CLASS_NAME" value="com.yixin.IOStream.IOTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IOTest.testByteFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yixin.IOStream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yixin.IOStream" />
-      <option name="MAIN_CLASS_NAME" value="com.yixin.IOStream.IOTest" />
-      <option name="METHOD_NAME" value="testByteFile" />
+      <option name="PACKAGE_NAME" value="com.yixin.reflection" />
+      <option name="MAIN_CLASS_NAME" value="com.yixin.reflection.ReflectionTest" />
+      <option name="METHOD_NAME" value="Test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOTest.testFileReaderFileWriter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TCPTest2.client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yixin.IOStream.*" />
+          <option name="PATTERN" value="web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yixin.IOStream" />
-      <option name="MAIN_CLASS_NAME" value="com.yixin.IOStream.IOTest" />
-      <option name="METHOD_NAME" value="testFileReaderFileWriter" />
+      <option name="PACKAGE_NAME" value="web" />
+      <option name="MAIN_CLASS_NAME" value="web.TCPTest2" />
+      <option name="METHOD_NAME" value="client" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOTest.testOutWriter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UDPTest1.receiver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yixin.IOStream.*" />
+          <option name="PATTERN" value="web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yixin.IOStream" />
-      <option name="MAIN_CLASS_NAME" value="com.yixin.IOStream.IOTest" />
-      <option name="METHOD_NAME" value="testOutWriter" />
+      <option name="PACKAGE_NAME" value="web" />
+      <option name="MAIN_CLASS_NAME" value="web.UDPTest1" />
+      <option name="METHOD_NAME" value="receiver" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UDPTest1.sander" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="web" />
+      <option name="MAIN_CLASS_NAME" value="web.UDPTest1" />
+      <option name="METHOD_NAME" value="sander" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -235,19 +246,19 @@
       <item itemvalue="Application.demo1" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.ArraysException" />
-      <item itemvalue="JUnit.IOTest.testOutWriter" />
-      <item itemvalue="JUnit.IOTest.testFileReaderFileWriter" />
-      <item itemvalue="JUnit.IOTest" />
-      <item itemvalue="JUnit.IOTest.testByteFile" />
-      <item itemvalue="JUnit.BufferTest.test" />
+      <item itemvalue="JUnit.TCPTest2.client" />
+      <item itemvalue="JUnit.UDPTest1.receiver" />
+      <item itemvalue="JUnit.UDPTest1.sander" />
+      <item itemvalue="JUnit.ReflectionTest.Test1" />
+      <item itemvalue="JUnit.ReflectionTest.Test2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BufferTest.test" />
-        <item itemvalue="JUnit.IOTest.testByteFile" />
-        <item itemvalue="JUnit.IOTest.testFileReaderFileWriter" />
-        <item itemvalue="JUnit.IOTest" />
-        <item itemvalue="JUnit.IOTest.testOutWriter" />
+        <item itemvalue="JUnit.ReflectionTest.Test2" />
+        <item itemvalue="JUnit.ReflectionTest.Test1" />
+        <item itemvalue="JUnit.UDPTest1.sander" />
+        <item itemvalue="JUnit.UDPTest1.receiver" />
+        <item itemvalue="JUnit.TCPTest2.client" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +355,8 @@
       <workItem from="1573628976808" duration="67000" />
       <workItem from="1573629083906" duration="5058000" />
       <workItem from="1573712182734" duration="4628000" />
-      <workItem from="1573733116593" duration="13737000" />
+      <workItem from="1573733116593" duration="21398000" />
+      <workItem from="1574000956363" duration="8231000" />
     </task>
     <task id="LOCAL-00001" summary="增加耗时统计">
       <created>1568878011900</created>
@@ -465,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573838567281</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="字符流，字节流，缓存流">
+      <created>1573923184836</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1573923184837</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +514,8 @@
     <MESSAGE value="多线程问题" />
     <MESSAGE value="String和StringBuffer StringBuilder的 速度对比" />
     <MESSAGE value="IO流" />
-    <option name="LAST_COMMIT_MESSAGE" value="IO流" />
+    <MESSAGE value="字符流，字节流，缓存流" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符流，字节流，缓存流" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaBasics$Threads4.ic" NAME="Threads4 Coverage Results" MODIFIED="1572933016116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
